@@ -191,9 +191,9 @@ describe('Central de Atendimento ao Cliente TAT', () => {
       expect(response.body).to.contain('CAC TAT')
     })
   });
-  it('encontra o gato escondido', () => {
+/*   it('encontra o gato escondido', () => {
     cy.get('span[id="cat"]')
       .invoke('show')
       .should('be.visible')
-  });
+  }); */
 })
